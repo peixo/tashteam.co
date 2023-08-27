@@ -26,7 +26,6 @@
 }
 
 .hide {
-  background: rgb(0, 0, 0);
   overflow: hidden;
 }
 
@@ -36,7 +35,6 @@
 }
 
 .section1 {
-  background: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,6 +45,15 @@
 .section1 p, .section1 h1 span {
   font-size: 120px;
   margin: 0 0 20px 0;
+}
+.section1 img {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (max-width: 680px) {

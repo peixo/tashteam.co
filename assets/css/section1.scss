@@ -1,5 +1,5 @@
 .section1 {
-    background: rgb(0, 0, 0);
+    // background: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,6 +9,13 @@
     p, h1 span {
         font-size: 120px;
         margin: 0 0 20px 0;
+    }
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        object-position: center;
+        object-fit: cover;
     }
 }
 
