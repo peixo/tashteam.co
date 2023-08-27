@@ -1,0 +1,58 @@
+@import './fonts/fonts-list.css';
+@import 'mixins/mediaquerys';
+@import 'reveal';
+@import 'section1.scss';
+@import 'section2.scss';
+@import 'section3.scss';
+@import 'section4.scss';
+@import 'footer';
+
+html {
+    // scroll-snap-type: y mandatory;
+    padding: 0;
+    margin: 0;
+
+}
+
+* {
+    // background: rgba(237, 13, 13, 0.995);
+    padding: 0;
+    margin: 0;
+    // box-sizing: content-box;
+}
+// section {
+//     scroll-snap-align: start;
+//     scroll-snap-stop: always;
+// }
+
+
+h1, h2, h3 {
+    font-family: 'WorkSans-Black', sans-serif;
+}
+
+p, span {
+    font-family: 'WorkSans-Black', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 900;
+    line-height: 1.2em;
+}
+
+a {
+    color: white;
+}
+
+.isBCWhite {
+    color: black;
+}
+
+.line {
+    margin-top: 80px;
+    border-bottom: 1px solid black;
+}
+@media (max-width: 480px) {
+    .line {
+        margin-top: 40px;
+        border-bottom: 1px solid black;
+    }
+}
+

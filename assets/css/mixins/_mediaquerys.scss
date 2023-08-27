@@ -1,0 +1,22 @@
+/* RESPONSIVE */
+
+@function strip-unit($number) {
+    @if type-off($number)=='number' and not unitless($number) {
+        @return $number / ($number * 0 + 1);
+    }
+    @return $number
+}
+
+@mixin up ($size) {
+    $size: strip-unit($size);
+    @media screen and (min-width: $size + 1px) {
+        @content
+    }
+}
+
+@mixin down($size) {
+    $size: strip-unit($size);
+    @media screen and (max-width: $size * 1px) {
+        @content
+    }
+}

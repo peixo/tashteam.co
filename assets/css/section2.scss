@@ -1,0 +1,90 @@
+.isBCWhite {
+    color: black;
+}
+
+.paragraph {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.section2 {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    h2{
+        font-size: 220px;
+        margin: 80px auto 20px 120px;
+        @extend .isBCWhite
+    }
+    p {
+        font-size: 40px;
+        margin: 0 0 20px 0;
+        @extend .isBCWhite
+    }
+}
+
+.description {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    padding: 80px 40px 0 40px;
+
+    p {
+        color: black;
+    }
+}
+
+.section__content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    // padding: 40px 40px auto 40px;
+    h2 {
+        margin-top: 140px;
+    }
+    .paragraph {
+        @extend .paragraph;
+    }
+}
+
+@media(max-width: 680px){
+
+    .section2 {
+        width: auto;
+        background: rgb(255, 255, 255);
+        h2{
+            font-size: 100px;
+            margin: 40px auto 0px 0;
+            color: black;
+        }
+        p {
+            font-size: 18px;
+            margin: 0 0 0px 0;
+            color: black;
+        }
+    }
+
+    .description {
+        padding: 40px 20px 0 20px;
+        width: 320px;
+        p {
+            color: black;
+        }
+    }
+
+    .section__content {
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        // padding: 40px 40px auto 40px;
+        .paragraph {
+            @extend .paragraph;
+        }
+    }
+
+
+    .section2_paragraph {
+        margin-top: 0px;
+        margin-left: 40px;
+        width: 320px;
+    }
+}

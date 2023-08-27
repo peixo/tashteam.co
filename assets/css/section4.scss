@@ -1,0 +1,35 @@
+.section4 {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    h2{
+        font-size: 220px;
+        margin: 120px 0 40px 80px;
+        @extend .isBCWhite
+    }
+    p {
+        font-size: 40px;
+        margin: 0 0 20px 0;
+        @extend .isBCWhite
+    }
+}
+
+@media(max-width: 680px) {
+    .section4_paragraph {
+        margin-top: 0px;
+        margin-left: 40px;
+        width: 320px;
+    }
+
+    .section4 {
+        width: 100%;
+        background: rgb(255, 255, 255);
+        h2{
+            font-size: 100px;
+            margin: 120px 0 40px 0px;
+        }
+        p {
+            font-size: 20px;
+            margin: 0 0 20px 0;
+        }
+    }
+}
