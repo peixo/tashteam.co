@@ -1,7 +1,7 @@
 import './animation-text'
 
 
-const ratio = .1
+const ratio = .2
 
 const options = {
     root: null,
@@ -18,12 +18,14 @@ const options = {
             entry.target.classList.remove('reveal-visible')
         }
     });
-  }
+}
 
   const observer = new IntersectionObserver(handleIntersect, options);
-  observer.observe(document.querySelectorAll('.reveal').forEach(function (r) {
-    observer.observe(r)
+    observer.observe(document.querySelectorAll('.reveal').forEach(function (r) {
+      observer.observe(r)
+
   }))
+
 
 
 

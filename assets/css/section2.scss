@@ -33,6 +33,12 @@
     }
 }
 
+.seo_text {
+    position: absolute;
+    top: 400px;
+    left: 800px;
+}
+
 .section__content {
     margin-left: auto;
     margin-right: auto;
@@ -43,6 +49,17 @@
     }
     .paragraph {
         @extend .paragraph;
+    }
+}
+
+.img_float {
+    position: absolute;
+    top: 1000px;
+    left: 300px;
+    img {
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
     }
 }
 

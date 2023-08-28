@@ -30,7 +30,7 @@
 }
 
 .hide span {
-  transform: translateY(100%);
+  transform: translateY(-100%);
   display: inline-block;
 }
 
@@ -43,8 +43,10 @@
   height: 100vh;
 }
 .section1 p, .section1 h1 span {
-  font-size: 120px;
-  margin: 0 0 20px 0;
+  font-size: 140px;
+}
+.section1 p {
+  margin: 0 0 10px 0;
 }
 .section1 img {
   position: absolute;
@@ -54,6 +56,18 @@
      object-position: center;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.lona {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 3;
+}
+
+.lona_out {
+  transform: translateY(-1000);
 }
 
 @media (max-width: 680px) {

@@ -1,0 +1,352 @@
+/*!***********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./assets/css/fonts/fonts-list.css ***!
+  \***********************************************************************************/
+@font-face {   
+    font-family: 'WorkSans-Black'; 
+    src: url(bc067f7f3a9c520400f1.ttf);
+  }
+@font-face {   
+    font-family: 'Ostrich'; 
+    src: url(dd51413f18b552c6a0c5.otf);
+  }
+
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js!./assets/css/main.scss ***!
+  \*************************************************************************************************************************************************************************************/
+/* RESPONSIVE */
+.reveal {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translate(0);
+  transition: 1.1s cubic-bezier(0.5, 0, 0, 1);
+}
+
+.hide {
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(-100%);
+  display: inline-block;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.section1 p, .section1 h1 span {
+  font-size: 140px;
+}
+.section1 p {
+  margin: 0 0 10px 0;
+}
+.section1 img {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.lona {
+  background-color: #000000;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 3;
+}
+
+.lona_out {
+  transform: translateY(-1000);
+}
+
+@media (max-width: 680px) {
+  .section1_paragraph {
+    margin-top: 0px;
+    margin-left: 40px;
+    width: 320px;
+  }
+  .section1 {
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section1 h1 span {
+    font-size: 60px;
+    margin: 0 0 6px 0;
+  }
+  .section1 span {
+    font-size: 14px;
+  }
+}
+.title {
+  width: auto;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.isBCWhite, .section4 p, .section4 h2, .section3 p, .section3 h2, .section2 p, .section2 h2 {
+  color: black;
+}
+
+.paragraph, .section__content .paragraph {
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.section2 {
+  width: 100%;
+  background: rgb(255, 255, 255);
+}
+.section2 h2 {
+  font-size: 220px;
+  margin: 80px auto 20px 120px;
+}
+.section2 p {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+.description {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  padding: 80px 40px 0 40px;
+}
+.description p {
+  color: black;
+}
+
+.seo_text {
+  position: absolute;
+  top: 400px;
+  left: 800px;
+}
+
+.section__content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+.section__content h2 {
+  margin-top: 140px;
+}
+.img_float {
+  position: absolute;
+  top: 1000px;
+  left: 300px;
+}
+.img_float img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 680px) {
+  .section2 {
+    width: auto;
+    background: rgb(255, 255, 255);
+  }
+  .section2 h2 {
+    font-size: 100px;
+    margin: 40px auto 0px 0;
+    color: black;
+  }
+  .section2 p {
+    font-size: 18px;
+    margin: 0 0 0px 0;
+    color: black;
+  }
+  .description {
+    padding: 40px 20px 0 20px;
+    width: 320px;
+  }
+  .description p {
+    color: black;
+  }
+  .section__content {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+  .section2_paragraph {
+    margin-top: 0px;
+    margin-left: 40px;
+    width: 320px;
+  }
+}
+.section3 {
+  position: relative;
+  width: 100%;
+  background: rgb(255, 255, 255);
+}
+.section3 h2 {
+  font-size: 220px;
+  margin: 80px auto 20px 120px;
+}
+.section3 p {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+@media (max-width: 680px) {
+  .section3_paragraph {
+    margin-top: 0px;
+    margin-left: 40px;
+    width: 320px;
+  }
+  .section3 {
+    width: 100%;
+    background: rgb(255, 255, 255);
+  }
+  .section3 h2 {
+    font-size: 100px;
+    margin: 80px auto 0px 0;
+  }
+  .section3 p {
+    font-size: 20px;
+    margin: 0 0 0px 0;
+  }
+}
+.section4 {
+  position: relative;
+  width: 100%;
+  background: rgb(255, 255, 255);
+}
+.section4 h2 {
+  font-size: 220px;
+  margin: 120px 0 40px 80px;
+}
+.section4 p {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+@media (max-width: 680px) {
+  .section4_paragraph {
+    margin-top: 0px;
+    margin-left: 40px;
+    width: 320px;
+  }
+  .section4 {
+    width: 100%;
+    background: rgb(255, 255, 255);
+  }
+  .section4 h2 {
+    font-size: 100px;
+    margin: 120px 0 40px 0px;
+  }
+  .section4 p {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+  }
+}
+footer {
+  position: relative;
+  margin: 0 0 40px 0;
+  margin-top: 60px;
+}
+
+.adress,
+.phone {
+  position: relative;
+  padding: 10px 20px 10px 20px;
+  border-top: 1px solid black;
+  width: 960px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.adress h2,
+.phone h2 {
+  color: black;
+}
+.adress p, .adress p > a,
+.phone p,
+.phone p > a {
+  color: black;
+}
+
+@media (max-width: 680px) {
+  footer {
+    margin: 0 auto 40px auto;
+    margin-top: 10px;
+  }
+  .adress,
+  .phone {
+    padding: 10px 20px 0px 20px;
+    border-top: 1px solid black;
+    width: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .adress h2,
+  .phone h2 {
+    color: black;
+  }
+  .adress p, .adress p > a,
+  .phone p,
+  .phone p > a {
+    color: black;
+  }
+}
+html {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: "WorkSans-Black", sans-serif;
+}
+
+p, span {
+  font-family: "WorkSans-Black", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 900;
+  line-height: 1.2em;
+}
+
+a {
+  color: white;
+}
+
+.isBCWhite, .section2 h2, .section2 p, .section3 h2, .section3 p, .section4 h2, .section4 p {
+  color: black;
+}
+
+.line {
+  margin-top: 80px;
+  border-bottom: 1px solid black;
+}
+
+@media (max-width: 480px) {
+  .line {
+    margin-top: 40px;
+    border-bottom: 1px solid black;
+  }
+}
